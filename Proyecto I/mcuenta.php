@@ -35,50 +35,24 @@
             
         </aside>
     
-    <section style=" background: lightblue; width: 66%; display: ; height: 520px;  border-radius: 1em;  justify-content: centeer ; align-items: ; " >
+<section style=" background: lightblue; width: 66%; display: ; height: 520px;  border-radius: 1em;  justify-content: centeer ; align-items: ; " >
                 
   
         
         
-     <h8 style=" margin-left: 15px; margin-top: 0px">Pantalla de registro de lista de asistencia</h8>
+     <h8 style=" margin-left: 15px; margin-top: 0px"> Mi cuenta </h8>
             
-<div style="background:     ; display: flex; justify-content: center; align-items: center;">
+<div style="margin-top: 25px; display: flex; justify-content: center; align-items: center;">
     
     <div>
         
-        <form method="POST" action="" onsubmit="return validarContraseñas()">
+        <center><p id="mensajeError" style="color: ; font-size: 30px;">&nbsp &nbsp Nombre</p></center>
+        <center><p id="mensajeError" style="color: ; font-size: 30px;">&nbsp &nbsp Boleta</p></center>
+        <center><p id="mensajeError" style="color: ; font-size: 30px;">&nbsp &nbsp Correo</p></center><br>
         
-    <h3 style="margin-top: 55px;"><center> Ingrese </center></h3>
-            
-            
-            
-        <p></p>
-    <center><input style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="text" id="nombre" name="nombre" placeholder="&nbsp Grupo" required></center>
-    <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="text" id="boleta" name="boleta" placeholder="&nbsp Profesor" required></center>
-    <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="email" id="correeo" name="correo" placeholder="&nbsp #Laboratorio" required></center>
-    <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="password" id="password" name="password" placeholder="&nbsp Materia" required></center>
-    <p></p>
-    <center><input style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="password" id="repassword" name="repassword" placeholder="&nbsp Ciclo" required></center>
-    <p></p>
-   
-            
-   
-         <center><span id="mensajeError" style="color: red;"></span></center> 
-            <p></p><br>
-            
-    
         
-        <input name="Registrar" id="btnregistrar" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 35px; margin-left: 125px" value="Terminar registro">
+        <input name="Registrar" id="btnregistrar" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 35px; margin-left: 150px" value="Cambio de Contraseña">
         
-    
-    
-   
-
-       </form>
-            
     </div>     
         
 </div>

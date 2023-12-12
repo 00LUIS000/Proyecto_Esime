@@ -3,55 +3,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Toma de asistencia</title>
-	<link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	
+    <title>Principal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-		<div class="btn-menu">
-			<label for="btn-menu">☰</label>
-		</div>
-		</div>
-	</header>
-	<div class="capa"><p></p></div>
+    
+    <p></p>
+    
+    <div style="display: flex; margin-top: 1px; width: 85%; height: 100%;  position: relative; justify-content:center; align-items: center; padding: 1.25em">
+        
+        <aside  style="background:  #ffd3a9; float: left; width:45 ; height: 100%; margin: 1px; margin-right: 45px; margin-left: 15px; border-radius: 1em">
+        
+            
+        <ul class="list-group" style="padding: 15px;">
+ 
+    <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="principal.php">Toma de asistencia</a></li>
+  <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="RepAsistencia.php">Reportes de asistencias</a></li>
+  <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="porcentajes.php">Porcentajes</a></li>
+  <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="mcuenta.php">Mi cuenta</a></li>
+  <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="invitar.php">Invitar a encargado</a></li>
+   <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="Incidencia.php">Incidencia</a></li>  
+         
 
-<!--	--------------->
-<input type="checkbox" id="btn-menu">
-<div class="container-menu">
-	<div class="cont-menu">
-		<nav>
-			<a href="principal.php">Toma de asistencia</a>
-			<a href="#">Reportes de asistencias</a>
-			<a href="#">Porcentajes</a>
-			<a href="micuenta.php">Mi cuenta</a>
-			<a href="iniciosesion.php">Salir de la cuenta</a>
-		</nav>
-		<label for="btn-menu">✖️</label>
+  <li class="list-group-item list-group-item-warning" style="margin-top:95px; background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="iniciosesion.php">Salir de la cuenta</a></li>
 
+        
+        </ul>    
+            
+        </aside>
+    
+    <section style=" background: lightblue; width: 66%; display: ; height: 520px;  border-radius: 1em;  justify-content: ; align-items: ; " >
+                
+  
+        
+        
+                 <h8 style=" margin-left: 35px; margin-top: 10px">Pantalla de toma de asistencia por grupo</h8>
+            
+        <a style="height: 40px; margin-left: 250px; margin-top: 40px" name="ClicA" id="CliA" class="btn btn btn-outline-warning" href="registrarlista.php" role="button">Registrar una lista</a><br>
+            
+        
+        <a style="margin-left: 40px; display: inline-block" name="ClicA" id="CliA" class="btn btn btn-outline-warning" href="iniciosesion.php" role="button">Buscar por ciclo</a>
+        
+        <p style="display: inline-block" > &nbsp &nbsp y  &nbsp &nbsp</p>
+        
+        <a  style="display: inline-block"  name="ClicA" id="CliA" class="btn btn btn-outline-warning" href="iniciosesion.php" role="button">Buscar por grupo</a>
+        
+        
+        <p></p>
+        
+        <p style="margin-left: 50px">Listado de toma de asistencia</p>
+        
+        <div style="display: flex; margin-top: 25px; height: ;  position: relative; justify-content:center; align-items: center; ">
+        
+            <img style="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-fwa4b1WDMhxFahTql1-zzsw_xqRFqbOlkA&usqp=CAU">
+        
+        
+        </div>
+          
+            
+        </section>
     </div>
-</div>
-<br><br><br>
-<center><H1 class="text-success">Toma de asistencia</H1></center>
-<section align="right">
-<a name="RegistrarL" id="RegiL" class="btn btn-outline-info" href="registrarlista.php">Registrar una lista</a>
-</section>
-<br>
-<input type="text" id="buscG" name="buscaGrupo" placeholder="Grupo">&nbsp;<a name="" id="" class="btn btn-outline-success" href="#">Buscar</a>
-<br><br><br>
-<table class="table table-hover">
-  <thead>
-    <tr class="table-info">
-      <th scope="col">Grupo</th>
-      <th scope="col">Toma de asitencia</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="table-info">
-      <th scope="row">El grupo</th>
-      <td><a name="TomarA" id="TomaA" class="btn btn-light"" href="iniciarasistencia.php" role="button">Iniciar asistencia</a></td>
-
+    
 </body>
 </html>

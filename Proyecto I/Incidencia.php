@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Registro de listas</title>
+	<title>Incidencias</title>
 	<link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
@@ -40,7 +40,7 @@
   
         
         
-     <h8 style=" margin-left: 15px; margin-top: 0px">Pantalla de registro de lista de asistencia</h8>
+     <h8 style=" margin-left: 15px; margin-top: 0px">Pantalla de registro de Incidencias</h8>
             
 <div style="background:     ; display: flex; justify-content: center; align-items: center;">
     
@@ -71,7 +71,7 @@
             
     
         
-        <input name="Registrar" id="btnregistrar" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 35px; margin-left: 125px" value="Terminar registro">
+        <input name="Registrar" id="btnregistrar" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 15px; margin-left: 125px" value="Terminar registro de incidencias">
         
     
     

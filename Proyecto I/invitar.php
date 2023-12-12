@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Registro de listas</title>
+	<title>Invitacion</title>
 	<link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
@@ -40,48 +40,28 @@
   
         
         
-     <h8 style=" margin-left: 15px; margin-top: 0px">Pantalla de registro de lista de asistencia</h8>
+     <h8 style=" margin-left: 15px; margin-top: 0px">Pantalla de Invitacion</h8>
             
-<div style="background:     ; display: flex; justify-content: center; align-items: center;">
+
+       <div style="background: ; display: flex; justify-content: center; align-items: center; margin-top: 145px">
     
     <div>
-        
-        <form method="POST" action="" onsubmit="return validarContraseñas()">
-        
-    <h3 style="margin-top: 55px;"><center> Ingrese </center></h3>
-            
-            
-            
-        <p></p>
-    <center><input style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="text" id="nombre" name="nombre" placeholder="&nbsp Grupo" required></center>
-    <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="text" id="boleta" name="boleta" placeholder="&nbsp Profesor" required></center>
-    <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="email" id="correeo" name="correo" placeholder="&nbsp #Laboratorio" required></center>
-    <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="password" id="password" name="password" placeholder="&nbsp Materia" required></center>
-    <p></p>
-    <center><input style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="password" id="repassword" name="repassword" placeholder="&nbsp Ciclo" required></center>
-    <p></p>
-   
-            
-   
-         <center><span id="mensajeError" style="color: red;"></span></center> 
-            <p></p><br>
-            
-    
-        
-        <input name="Registrar" id="btnregistrar" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 35px; margin-left: 125px" value="Terminar registro">
-        
-    
-    
-   
 
-       </form>
-            
-    </div>     
+    <h4><center> Invitacion para el registro </center></h4>
+    <p><center> Ingrese el correo al que desea invitar...</center></p>
+    <center><input style="widht: ; border-radius: .5em; background: green;  border:1px solid green; color: white"  type="text" id="miCampoTexto" name="miCampoTexto" placeholder=" &nbsp Correo"></center>
+    <p></p>
+    <p></p>
+    <center><a name="IngresarA" id="IngeA" class="btn btn-outline-danger" href="#" role="button" style=" padding: 3px 55px">Enviar correo</a></center>
+    <p></p>
+ 
+
+          </div>
+      </div>
+    
+    
         
-</div>
+
         
                 
         
