@@ -42,36 +42,37 @@
         
      <h8 style=" margin-left: 15px; margin-top: 0px">Pantalla de registro de Incidencias</h8>
             
-<div style="background:     ; display: flex; justify-content: center; align-items: center;">
+<div style="background: ; display: ; justify-content: center; align-items: center;">
     
     <div>
         
         <form method="POST" action="" onsubmit="return validarContraseñas()">
-        
-    <h3 style="margin-top: 55px;"><center> Ingrese </center></h3>
+      
             
+    <p></p> 
+    <input type="text" size=40 style="width:175px;  display: inline-block; margin-left: 60px; border-radius: .5em; background: green;  border:1px solid green; color: white; margin-top: 20px" name="repassword" placeholder="&nbsp Grupo" required> 
+   
+    <input type="text" size=40 style="width:175px;  display: inline-block; margin-left: 40px; border-radius: .5em; background: green;  border:1px solid green; color: white" name="repassword" placeholder="&nbsp Profesor" required>
             
+    <input type="text" size=40 style="width:175px;  display: inline-block; margin-left: 40px; border-radius: .5em; background: green;  border:1px solid green; color: white" name="repassword" placeholder="&nbsp #Laboratorio" required>
+    <p></p>
+    <input type="text" size=40 style="width:175px;  display: inline-block; margin-left: 60px; border-radius: .5em; background: green;  border:1px solid green; color: white" name="repassword" placeholder="&nbsp Ciclo" required> 
+   
+    <input type="text" size=40 style="width:175px;  display: inline-block; margin-left: 40px; border-radius: .5em; background: green;  border:1px solid green; color: white" name="repassword" placeholder="&nbsp Nombre" required>
             
-        <p></p>
-    <center><input style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="text" id="nombre" name="nombre" placeholder="&nbsp Grupo" required></center>
+    <input type="text" size=40 style="width:175px;  display: inline-block; margin-left: 40px; border-radius: .5em; background: green;  border:1px solid green; color: white" name="repassword" placeholder="&nbsp Boleta" required>
     <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="text" id="boleta" name="boleta" placeholder="&nbsp Profesor" required></center>
-    <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="email" id="correeo" name="correo" placeholder="&nbsp #Laboratorio" required></center>
-    <p></p>
-    <center><input  style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="password" id="password" name="password" placeholder="&nbsp Materia" required></center>
-    <p></p>
-    <center><input style="border-radius: .5em; background: green;  border:1px solid green; color: white" type="password" id="repassword" name="repassword" placeholder="&nbsp Ciclo" required></center>
-    <p></p>
+            
+            <center>  <input type="text" size=40 style="width:500px; height: 250px; margin-left: 40px; border-radius: .5em; background: green;  border:1px solid green; color: white; margin-top: 45px" name="repassword" placeholder="&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Agregar descripcion de la incidencia" required></center>
    
             
    
          <center><span id="mensajeError" style="color: red;"></span></center> 
-            <p></p><br>
+           <p></p>
             
     
         
-        <input name="Registrar" id="btnregistrar" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 15px; margin-left: 125px" value="Terminar registro de incidencias">
+        <input name="Registrar" id="btnregistrar" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 15px; margin-left: 425px; margin-top: 15px" value="Terminar registro de incidencias">
         
     
     
