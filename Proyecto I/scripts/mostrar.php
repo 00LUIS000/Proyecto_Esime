@@ -26,7 +26,9 @@
                 
                           <td><font color = "#ffffff"> <font face="Arial"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp'.$field1name.'</font></font></td> 
                           <td>
-                            <input name="IngresarA" id="btningresar" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 7px" value="Toma de asistencia">
+                          <a href="regasistencia.php">
+                            <input name="asistencia" id="asistencia" class="btn btn-outline-danger"  type="submit" style=" padding: 3px 7px" value="Iniciar asistencia">
+                          </a>
                           </td>
                           
                       </tr>';
