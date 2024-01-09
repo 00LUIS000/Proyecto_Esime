@@ -18,6 +18,10 @@
             {
                // echo "Has ingresado";
                 
+                session_start();
+                
+                $_SESSION['boleta'] = $boleta;
+                
                // mysql_close($conexion);
                 
                 header("location: ../Proyecto I/principal.php ");

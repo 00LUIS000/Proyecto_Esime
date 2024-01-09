@@ -14,30 +14,30 @@
 <body>
     
     <p></p>
-    
+    <!-- 202223;-->
     <div style="display: flex; margin-top: 1px; width: 85%; height: 100%;  position: relative; justify-content:center; align-items: center; padding: 1.25em">
         
-        <aside  style="background:  #ffd3a9; float: left; width:45 ; height: 100%; margin: 1px; margin-right: 45px; margin-left: 15px; border-radius: 1em">
+        <aside  style="background:  #151515; float: left; width:45 ; height: 100%; margin: 1px; margin-right: 45px; margin-left: 15px; border-radius: 1em">
         
             
         <ul class="list-group" style="padding: 15px;">
  
-    <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="principal.php">Toma de asistencia</a></li>
-  <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="RepAsistencia.php">Reportes de asistencias</a></li>
-  <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="porcentajes.php">Porcentajes</a></li>
-  <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="mcuenta.php">Mi cuenta</a></li>
-  <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="invitar.php">Invitar a encargado</a></li>
-   <li class="list-group-item list-group-item-warning" style="background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="Incidencia.php">Incidencia</a></li>  
+    <li class="list-group-item list-group-item-warning" style="background:  #151515; border-color: #151515;"><a  style="text-decoration: none; font-size: 25px; " href="principal.php">Toma de asistencia</a></li>
+  <li class="list-group-item list-group-item-warning" style="background:  #151515; border-color: #151515;"><a  style="text-decoration: none; font-size: 25px; " href="RepAsistencia.php">Reportes de asistencias</a></li>
+  <li class="list-group-item list-group-item-warning" style="background:  #151515; border-color: #151515;"><a  style="text-decoration: none; font-size: 25px; " href="porcentajes.php">Porcentajes</a></li>
+  <li class="list-group-item list-group-item-warning" style="background:  #151515; border-color: #151515;"><a  style="text-decoration: none; font-size: 25px; " href="mcuenta.php">Mi cuenta</a></li>
+  <li class="list-group-item list-group-item-warning" style="background:  #151515; border-color: #151515;"><a  style="text-decoration: none; font-size: 25px; " href="invitar.php">Invitar a encargado</a></li>
+   <li class="list-group-item list-group-item-warning" style="background:  #151515; border-color: #151515;"><a  style="text-decoration: none; font-size: 25px; " href="Incidencia.php">Incidencia</a></li>  
          
 
-  <li class="list-group-item list-group-item-warning" style="margin-top:95px; background:  #ffd3a9;"><a  style="text-decoration: none; font-size: 25px; " href="iniciosesion.php">Salir de la cuenta</a></li>
+  <li class="list-group-item list-group-item-warning" style="margin-top:95px; background:  #151515; border-color: #151515;"><a  style="text-decoration: none; font-size: 25px; " href="iniciosesion.php">Salir de la cuenta</a></li>
 
         
         </ul>    
             
         </aside>
     
-    <section style=" background: lightblue; width: 66%; display: ; height: 520px;  border-radius: 1em;  justify-content: ; align-items: ; " >
+    <section style=" background: #3d4042; width: 66%; display: ; height: 520px;  border-radius: 1em;  justify-content: ; align-items: ; " >
                 
   
         
@@ -56,12 +56,24 @@
         
         <p></p>
         
-        <p style="margin-left: 50px">Listado de toma de asistencia</p>
+        <p style="margin-left: 50px; display: inline-block">Listado de toma de asistencia</p>
         
-        <div style="display: flex; margin-top: 25px; height: ;  position: relative; justify-content:center; align-items: center; ">
+            <input style="border-radius: .5em; background: orange;  border:1px solid gray; color: white; margin-left: 155px; margin-bottom: 20px;" type="text" name="ciclo" placeholder="&nbsp Dato de Busqueda" required>
         
-            <img style="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-fwa4b1WDMhxFahTql1-zzsw_xqRFqbOlkA&usqp=CAU">
+        <div style="display: flex; margin-top: -10px; height: ;  position: relative; justify-content:center; align-items: center; ">
+            
+            <div style="background: ; width: 95%;">
         
+            
+               <?php
+              
+                include("scripts/conexionbd.php");
+                include("scripts/mostrar.php");
+            
+            
+            ?>
+            
+            </div>
         
         </div>
           
