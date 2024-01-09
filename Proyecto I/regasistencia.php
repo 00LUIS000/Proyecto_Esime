@@ -82,9 +82,13 @@
 
                             //print("<br/>".$posible_boleta);
                            // print("<br/>".$posible_nombre);
-
+            
+            $boleta = substr($posible_boleta,22);
+            $nombre = substr($posible_nombre,20);
+            
 
             }
+             
              ?>
     
      
@@ -103,8 +107,8 @@
         
           
             
-        <center> <textarea size=40 style="width:96%; height: 350px; margin-left: 0px; border-radius: .5em; background: #3d4042;  border:1px solid white; color: white; margin-top: -40px" name="descripcion" cols="40" rows="4" placeholder="&#10 &#10 &#10 &#10 &#10 &#10 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Agregar descripcion de la incidencia"><?php //print("<br/>".$posible_boleta);
-                           // print("<br/>".$posible_nombre);
+        <center> <textarea size=40 style="width:96%; height: 350px; margin-left: 0px; border-radius: .5em; background: #3d4042;  border:1px solid white; color: white; margin-top: -40px" name="descripcion" cols="40" rows="4" placeholder="&#10 &#10 &#10 &#10 &#10 &#10 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp "><?php print(" &nbsp".$boleta);
+         print(" &nbsp".$nombre);
 ?></textarea> </center>
                 
    
